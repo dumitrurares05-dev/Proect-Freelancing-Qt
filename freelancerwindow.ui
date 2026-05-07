@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FreelancerWindow</class>
+ <widget class="QWidget" name="FreelancerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2695</width>
+    <height>993</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="6" column="4">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>My Contracts</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" rowspan="2" colspan="3">
+    <widget class="QListWidget" name="listJOBS">
+     <property name="editTriggers">
+      <set>QAbstractItemView::EditTrigger::AnyKeyPressed|QAbstractItemView::EditTrigger::DoubleClicked|QAbstractItemView::EditTrigger::EditKeyPressed</set>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="0">
+    <widget class="QPushButton" name="LOGOUT">
+     <property name="text">
+      <string>LOGOUT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="3">
+    <widget class="QPushButton" name="butonTrimite">
+     <property name="text">
+      <string>SEND</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Jobs </string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Description</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="4">
+    <widget class="QListWidget" name="listContracteleMele"/>
+   </item>
+   <item row="10" column="4">
+    <widget class="QPushButton" name="FinishedProject">
+     <property name="text">
+      <string>SEND WORK</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>Livrabil</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3">
+    <widget class="QListWidget" name="listChat"/>
+   </item>
+   <item row="2" column="3">
+    <widget class="QTextEdit" name="Description">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="labelNume">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="QPushButton" name="ApplyButton">
+     <property name="text">
+      <string>APPLY</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="3">
+    <widget class="QLineEdit" name="editMesaj"/>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Suma ceruta (€):</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1" colspan="2">
+    <widget class="QLineEdit" name="pretCerutInput"/>
+   </item>
+   <item row="5" column="3">
+    <widget class="QPushButton" name="UploadButon">
+     <property name="text">
+      <string>UPLOAD</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QTextEdit" name="livrabilInput"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

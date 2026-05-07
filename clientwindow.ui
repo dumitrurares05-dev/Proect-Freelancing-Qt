@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientWindow</class>
+ <widget class="QWidget" name="ClientWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2010</width>
+    <height>724</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="0" rowspan="4" colspan="2">
+    <widget class="QTextEdit" name="descriereProiect"/>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="editTitleProject"/>
+   </item>
+   <item row="9" column="4">
+    <widget class="QPushButton" name="ACCEPTOFFER">
+     <property name="text">
+      <string>ACCEPT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0" colspan="2">
+    <widget class="QPushButton" name="PostProject">
+     <property name="text">
+      <string>POST</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="6">
+    <widget class="QPushButton" name="REFUSEOFFER">
+     <property name="text">
+      <string>REFUSE</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="5" rowspan="2">
+    <widget class="QListWidget" name="listChat"/>
+   </item>
+   <item row="6" column="4">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string> Email Applications</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Projects</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="7" colspan="2">
+    <widget class="QListWidget" name="listaContracteActive"/>
+   </item>
+   <item row="7" column="4" colspan="2">
+    <widget class="QListWidget" name="emailAplicanti"/>
+   </item>
+   <item row="1" column="5">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Mesageria</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="7">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>Contracts</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Description</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="5">
+    <widget class="QPushButton" name="butonTrimite">
+     <property name="text">
+      <string>SEND</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0" colspan="2">
+    <widget class="QPushButton" name="LOGOUT">
+     <property name="text">
+      <string>LogOut</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="5">
+    <widget class="QLabel" name="pretFreelancer">
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QLabel" name="labelNume">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2" rowspan="4" colspan="2">
+    <widget class="QListWidget" name="listProiecteleMele"/>
+   </item>
+   <item row="8" column="7">
+    <widget class="QPushButton" name="Approve_buton">
+     <property name="text">
+      <string>ACCEPT</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="5">
+    <widget class="QLineEdit" name="editMesaj"/>
+   </item>
+   <item row="8" column="8">
+    <widget class="QPushButton" name="RefuseWork_buton">
+     <property name="text">
+      <string>REFUSE</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Title Project</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
